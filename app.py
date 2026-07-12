@@ -5,9 +5,9 @@ import requests
 from flask import Flask, render_template, jsonify, request, send_file
 from btc_analyzer import BTCAnalyzer
 try:
-    from attached_assets.validators import validate_transaction_id
-    from attached_assets.address_list import ADDRESSES_TO_CHECK
-    from attached_assets.utils import calculate_message_hash, format_hex
+    from validators import validate_transaction_id
+    from address_list import ADDRESSES_TO_CHECK
+    from utils import calculate_message_hash, format_hex
 except ImportError:
     # Fallback implementations
     def validate_transaction_id(tx_id):
