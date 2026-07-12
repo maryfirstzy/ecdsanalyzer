@@ -11,7 +11,7 @@ import time
 import sys
 from typing import Dict, List, Optional
 from btc_analyzer import BTCAnalyzer
-from attached_assets.utils import private_key_to_wif, public_key_to_p2pkh_address
+from utils import private_key_to_wif, public_key_to_p2pkh_address
 from ecdsa import SigningKey, SECP256k1
 
 # Configure logging
