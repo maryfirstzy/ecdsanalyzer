@@ -6,7 +6,7 @@ import requests
 import json
 from typing import Dict, List, Optional
 from btc_analyzer import BTCAnalyzer
-from attached_assets.address_list import ADDRESSES_TO_CHECK
+from address_list import ADDRESSES_TO_CHECK
 import threading
 import queue
 import random
