@@ -4,7 +4,7 @@ from typing import Dict, List, Optional, Tuple
 import requests
 from ecdsa import SECP256k1, SigningKey
 try:
-    from attached_assets.utils import format_hex, calculate_message_hash, int_to_bytes, bytes_to_int, private_key_to_wif, public_key_to_p2pkh_address
+    from utils import format_hex, calculate_message_hash, int_to_bytes, bytes_to_int, private_key_to_wif, public_key_to_p2pkh_address
 except ImportError:
     # Fallback implementations
     def format_hex(value):
