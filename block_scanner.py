@@ -9,8 +9,8 @@ import time
 import hashlib
 from typing import Dict, List, Optional, Tuple
 from btc_analyzer import BTCAnalyzer
-from attached_assets.blockchain_api import fetch_transaction, extract_signature_components
-from attached_assets.utils import private_key_to_wif, public_key_to_p2pkh_address
+from blockchain_api import fetch_transaction, extract_signature_components
+from utils import private_key_to_wif, public_key_to_p2pkh_address
 from ecdsa import SigningKey, SECP256k1
 
 # Configure logging
