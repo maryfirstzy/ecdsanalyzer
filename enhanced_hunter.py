@@ -8,7 +8,7 @@ from typing import Dict, List, Optional
 import json
 from btc_analyzer import BTCAnalyzer
 import concurrent.futures
-from attached_assets.address_list import ADDRESSES_TO_CHECK
+from address_list import ADDRESSES_TO_CHECK
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
